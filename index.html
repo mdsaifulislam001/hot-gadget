@@ -8,40 +8,223 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js">
     <title>Hot-Gadget</title>
 </head>
-<body>
-   <div class="container">
-    <nav class="navbar bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-            <img src="img/logo.png" alt="Logo" class="d-inline-block align-text-top">
-          </a>
-          <nav class="navbar navbar-expand-lg bg-body-tertiary">
-              <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" href="#product">Product</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" href="#about">About Us</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" href="contact">Contact Us</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
+
+<div class="container">
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="d-flex col-md-4 justify-content-start">
+            <a class="navbar-brand" href="#"><img src="img/logo.png" alt=""></a>
+          </div>
         </div>
-      </nav>
+     
+        <div class="d-flex col-md-4 justify-content-center">
+            
+        </div>
+     
+        <div class="d-flex col-md-4 justify-content-end">
+            <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#product">Product</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#about">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="contact">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+     </div>
+    </div>
+  </nav>
+</div>
+<div class="container">
+  <div id="carouselExampleIndicators" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="row align-items-center">
+          <div class="col-md-7">
+            <h1>Mackbook Pro</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At reprehenderit maiores officiis ratione delectus repellendus repudiandae reiciendis ex voluptatibus fuga.</p>
+            <button class="buy-now-button">BUY NOW>></button>
+          </div>
+          <div class="col-md-5">
+            <img src="img/product-1.png" class="d-block w-100" alt="...">
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="row align-items-center">
+          <div class="col-md-7">
+            <h1>Ear Bard</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem impedit soluta itaque illum amet dolorum hic rem assumenda officia eos, nulla ullam eum, eius ut ab, asperiores ipsa nesciunt fugit!</p>
+            <button class="buy-now-button">BUY NOW>></button>
+          </div>
+          <div class="col-md-5">
+            <img src="img/slider-1.png" class="d-block w-100" alt="...">
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="row align-items-center">
+          <div class="col-md-7">
+            <h1>Camera</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque molestias, minima non ipsam voluptatum sapiente impedit repellendus eligendi. Qui fuga illo repudiandae et quisquam corporis nemo adipisci, reiciendis iste sapiente.</p>
+            <button class="buy-now-button">BUY NOW>></button>
+          </div>
+          <div class="col-md-5">
+            <img src="img/slider-3.png" class="d-block w-100" alt="...">
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>
+<div class="container catagories">
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col">
+      <div class="card h-100">
+        <img src="img/phone-2.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">iPhone 11 Pro</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-body-secondary">
+            <h6>$799</h6>
+          <button class="buy-now-button">BUY NOW>></button>
+          </small>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="img/phone-3.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Samsung Glaxy Note 10+</h5>
+          <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+          
+        </div>
+        <div class="card-footer">
+          <small class="text-body-secondary">
+            <h6>$799</h6>
+          <button class="buy-now-button">BUY NOW>></button>
+          </small>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="img/phone-1.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Redmi</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
 
-   </div>
+        </div>
+        <div class="card-footer">
+          <small class="text-body-secondary">
+            <h6>$799</h6>
+          <button class="buy-now-button">BUY NOW>></button>
+          </small>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
+<div class="container catagories">
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col">
+      <div class="card h-100">
+        <img src="img/product-1 (2).png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">iPhone 11 Pro</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-body-secondary">
+            <h4>$799</h4>
+          <button class="buy-now-button">BUY NOW>></button>
+          </small>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="img/product-2.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Samsung Glaxy Note 10+</h5>
+          <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+          
+        </div>
+        <div class="card-footer">
+          <small class="text-body-secondary">
+            <h4>$799</h4>
+          <button class="buy-now-button">BUY NOW>></button>
+          </small>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="img/product-3.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Redmi</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
 
+        </div>
+        <div class="card-footer">
+          <small class="text-body-secondary">
+            <h4>$799</h4>
+          <button class="buy-now-button">BUY NOW>></button>
+          </small>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<div class="container">
+  <div class="container middle">
+    <h1 class="middle">Catagories</h1>
+    <button></button>
+  </div>
+<div class="half-width">
+  <div class="item1 bg d-flex align-items-center justify-content-center"><img src="img/perfume.png" alt=""></div>
+  <div class="item2 bg d-flex align-items-center justify-content-center"><img src="img/bag.png" alt=""></div>
+  <div class="item3 bg d-flex align-items-center justify-content-center"><img src="img/shoe.png" alt=""></div>
+</div>
+<div class="half-width item4">
+  <div>
+    <img style="width: 600px; margin-top: 60%;" src="img/pale-order.png" alt="">
+  </div>
+</div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>
 </body>
 </html>
